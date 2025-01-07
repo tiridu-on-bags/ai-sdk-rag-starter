@@ -5,7 +5,7 @@ import {
   insertResourceSchema,
   resources,
 } from '@/lib/db/schema/resources';
-import { db } from '../db';
+import { db } from '@/lib/db';
 import { generateEmbeddings } from '../ai/embeddings';
 import { embeddings as embeddingsTable } from '../db/schema/embeddings';
 
